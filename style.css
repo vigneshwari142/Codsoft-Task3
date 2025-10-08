@@ -1,0 +1,96 @@
+/* style.css */
+body {
+    background-image: url('https://png.pngtree.com/background/20230317/original/pngtree-beautiful-night-background-meteor-picture-image_2148631.jpg'); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-self: center;
+    margin: 0;
+    
+   /* background: linear-gradient(135deg, #1e3c72, #2a5298); */
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+/* .btn:hover {
+    background: blueviolet;
+} */
+.btn:hover {
+    background: #555;
+} 
+
+.operator {
+   background: darkviolet;
+}
+
+/* .operator {
+    background: #ff9500;
+} */
+
+.operator:hover {
+    background: #3eb4bd;
+}
+
+.equal {
+    background: #00cc66;
+    grid-column: span 2;
+}
+
+.equal:hover {
+    background: #00b359;
+}
+
+.clear {
+    background: #d9534f;
+}
+
+.clear:hover {
+    background: #c9302c;
+}
+
+.delete {
+    background: #f0ad4e;
+}
+
+.delete:hover {
+    background: #ec971f;
+}
